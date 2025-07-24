@@ -1,0 +1,122 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ line-height: none;
+ text-decoration: none;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@meadia (min-width: 790px){
+
+    .main{
+        background-size: contain;
+        background-position: center center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.main {
+
+    background-image: url(/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    
+}
+.nav-icon a {
+    position: fixed;
+    color: black;
+    position: relative;
+    top: 3%;
+    margin-left: 40%;
+    font-size: 25px;
+}
+.nav-bio{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-b a {
+    color: black;
+    margin-left: 80px;
+    position: relative;
+    top: 4%;
+}
+.icon-p{
+    display: flex;
+}
+.icon-z i  {
+    color: black;
+    font-size: 30px;
+    margin: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 13px;
+
+}
+.para-ed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+
+.para-e{
+    margin-left: 90px;
+    color: brown;
+    font-size: 60px;
+    font-weight: 400;
+}
+.para-p{
+    position: absolute;
+    top: 62%;
+    margin-left: 60px;
+    color: black;
+}
+.by-section {
+    position: absolute;
+    top: 70%;
+
+}
+.buy-section {
+    color: black;
+    height: 30px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 50px;
+    margin-left: 120px;
+    text-align: center;
+    
+}
+a{
+    color: black;
+}
+.mail-sec{
+    display: flex;
+    position: absolute;
+    top: 70%;
+
+}
+.mail-section{
+    margin-left: 300px;
+}
+.slash-img{
+    background-color: white;
+}
+img{
+    position: absolute;
+     right: 50%;
+}
+.btn-t  {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 85%;
+    margin-left: 18%;
+    border: 3px solid orangered;
+
+}
+.btn-r b {
+    
+}
